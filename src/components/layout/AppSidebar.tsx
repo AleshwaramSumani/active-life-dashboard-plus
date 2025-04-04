@@ -83,7 +83,7 @@ export function AppSidebar() {
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton
                     asChild
-                    active={isActive(item.url)}
+                    isActive={isActive(item.url)}
                   >
                     <Link to={item.url} className="flex items-center">
                       <item.icon className="mr-2 h-5 w-5" />
